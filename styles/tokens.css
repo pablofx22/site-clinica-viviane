@@ -1,0 +1,42 @@
+/* ============================================================
+   DESIGN SYSTEM — TOKENS
+============================================================ */
+
+:root {
+  /* Cores base — extraídas da logo */
+  --black-deep:    #0D0B09;
+  --gold:          #C9A96E;
+  --gold-dark:     #9B7D4A;
+  --gold-light:    #E8D5B0;
+  --gold-subtle:   rgba(201,169,110,0.12);
+  --white-warm:    #FAF8F5;
+  --cream:         #F2EDE6;
+  --brown-dark:    #2C1F0E;
+
+  /* Texto */
+  --text-primary:  #1A1410;
+  --text-secondary:#6B5C4A;
+  --text-muted:    #9E8E7E;
+  --text-inverse:  #FAF8F5;
+
+  /* Bordas */
+  --border:        #E0D5C5;
+  --border-gold:   rgba(201,169,110,0.35);
+
+  /* Tipografia */
+  --font-serif: var(--font-serif-google), Georgia, serif;
+  --font-sans:  var(--font-sans-google), system-ui, sans-serif;
+
+  /* Espaçamentos — escala 8pt */
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px;
+  --s6:32px; --s7:48px; --s8:64px; --s9:80px; --s10:96px; --s11:128px;
+
+  /* Border radius */
+  --r-sm:4px; --r-md:8px; --r-lg:16px; --r-xl:24px; --r-full:9999px;
+
+  /* Sombras */
+  --shadow-sm:  0 1px 3px rgba(13,11,9,0.08);
+  --shadow-md:  0 4px 16px rgba(13,11,9,0.10);
+  --shadow-lg:  0 8px 32px rgba(13,11,9,0.14);
+  --shadow-gold:0 4px 24px rgba(201,169,110,0.22);
+}
